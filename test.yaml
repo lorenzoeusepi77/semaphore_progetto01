@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:     
+      - name: Create file
+        file: path=/tmp/testansible state=touch  
